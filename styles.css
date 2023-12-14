@@ -1,0 +1,22 @@
+body {
+    background-color: #0180ff;
+    cursor: url('rainbow.png'), auto;
+}
+h3{
+    color:white;
+}
+marquee{
+    color: white;
+    background-color: rgb(198, 39, 203);
+}
+#bannersesu{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
